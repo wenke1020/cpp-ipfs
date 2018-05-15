@@ -1,0 +1,11 @@
+import "google/protobuf/descriptor.proto"
+package ipfs
+
+message test
+{
+	optional string header    = 1;
+	optional string name      = 2;
+	optional uint64 id        = 3;
+	optional uint64 version   = 4;
+	optional bool   isEnabled = 5;
+}
